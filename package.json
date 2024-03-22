@@ -1,10 +1,10 @@
 {
-  "name": "simple-calculator-002",
-  "version": "1.0.0",
+  "name": "aw-simple-calculator",
+  "version": "1.0.3",
   "description": "A simple calculator with typescript",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
-  "bin": "index.ts",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
