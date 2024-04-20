@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
     { message: "Enter Your First Number", type: "number", name: "firstNumber" },
-    { message: "Enter Your Second Number", type: "number", name: "secondNumber" },
+    { message: "Enter Your second Number", type: "number", name: "secondNumber" },
     {
         message: "Select any of the operator to perform operations.",
         type: "list",
