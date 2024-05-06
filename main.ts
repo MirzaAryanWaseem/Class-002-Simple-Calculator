@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
+import chalk from "chalk";
 
 const answer = await inquirer.prompt([
   { message: "Enter Your First Number", type: "number", name: "firstNumber" },
