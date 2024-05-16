@@ -23,7 +23,7 @@ if (answer.operator === "Addition") {
 } else if (answer.operator === "Division") {
   console.log(answer.firstNumber / answer.secondNumber);
 } else {
-  console.log("Please Enter Valid Operator.");
+  console.log(chalk.bold.red`Please Enter Valid Operator.`);
 }
-console.log("Thank You.");
+console.log(chalk.bold.green`Thank You.`);
 

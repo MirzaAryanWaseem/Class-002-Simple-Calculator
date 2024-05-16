@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+import chalk from "chalk";
 const answer = await inquirer.prompt([
     { message: "Enter Your First Number", type: "number", name: "firstNumber" },
     { message: "Enter Your Second Number", type: "number", name: "secondNumber" },
@@ -24,6 +25,6 @@ else if (answer.operator === "Division") {
     console.log(answer.firstNumber / answer.secondNumber);
 }
 else {
-    console.log("Please Enter Valid Operator.");
+    console.log(chalk.bold.red `Please Enter Valid Operator.`);
 }
-console.log("Thank You.");
+console.log(chalk.bold.green `Thank You.`);
