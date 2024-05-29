@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
+console.log(chalk.bold.blue(`\tWelcome to our simple calculator.\t`));
 const answer = await inquirer.prompt([
     { message: "Enter Your First Number", type: "number", name: "firstNumber" },
     { message: "Enter Your Second Number", type: "number", name: "secondNumber" },
