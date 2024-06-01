@@ -25,6 +25,6 @@ if (answer.operator === "Addition") {
   console.log(answer.firstNumber / answer.secondNumber);
 } else {
   console.log(chalk.bold.red`Please Enter Valid Operator.`);
-}
+}//if select other than these operators ,so this print
 console.log(chalk.bold.green`Thank You.`);
 

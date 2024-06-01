@@ -27,5 +27,5 @@ else if (answer.operator === "Division") {
 }
 else {
     console.log(chalk.bold.red `Please Enter Valid Operator.`);
-}
+} //if select other than these operators ,so this print
 console.log(chalk.bold.green `Thank You.`);
